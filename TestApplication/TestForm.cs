@@ -20,7 +20,7 @@ namespace TestApplication
             InitializeComponent();
 
             // create wordnet engine
-            _wordNetEngine = new WordNetEngine(@"dict", true);
+            _wordNetEngine = new WordNetEngine(@"WordNet", true);
 
             if (!_wordNetEngine.InMemory)
                 test.Text += " (will take a while)";
