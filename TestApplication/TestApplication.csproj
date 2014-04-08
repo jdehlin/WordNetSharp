@@ -134,7 +134,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WordNetSharp\WordNetSharp.csproj">
       <Project>{f4c6c48c-90ef-445d-b8f8-ad9b6767d9a8}</Project>
-      <Name>WordNet</Name>
+      <Name>WordNetSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

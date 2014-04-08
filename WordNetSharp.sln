@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordNetSharp", "WordNetShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{4CE87CD7-26B9-46AD-B192-C53096B7427D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordNetSharp.UnitTests", "WordNetSharp.UnitTests\WordNetSharp.UnitTests.csproj", "{D811435A-9804-4C5C-818D-691178D97C36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9128AE13-4680-4F62-9B21-554D887E03B9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +30,10 @@ Global
 		{4CE87CD7-26B9-46AD-B192-C53096B7427D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CE87CD7-26B9-46AD-B192-C53096B7427D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CE87CD7-26B9-46AD-B192-C53096B7427D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D811435A-9804-4C5C-818D-691178D97C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D811435A-9804-4C5C-818D-691178D97C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D811435A-9804-4C5C-818D-691178D97C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D811435A-9804-4C5C-818D-691178D97C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
