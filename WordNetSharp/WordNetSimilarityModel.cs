@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using LAIR.ResourceAPIs.WordNet;
-using LAIR.Collections.Generic;
 
-namespace LAIR.ResourceAPIs.WordNet
+namespace WordNetSharp
 {
     /// <summary>
     /// Provides WordNet-based semantic similarity measures

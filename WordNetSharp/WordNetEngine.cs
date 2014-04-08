@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
-
-using LAIR.Extensions;
+using System.Linq;
 using LAIR.Collections.Generic;
+using LAIR.Extensions;
 using LAIR.IO;
 
-namespace LAIR.ResourceAPIs.WordNet
+namespace WordNetSharp
 {
     /// <summary>
     /// Provides access to the WordNet resource via two alternative methods, in-memory and disk-based. The latter is blazingly

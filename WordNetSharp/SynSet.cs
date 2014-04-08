@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Globalization;
-using System.Collections.ObjectModel;
-
 using LAIR.Collections.Generic;
 using LAIR.Extensions;
 
-namespace LAIR.ResourceAPIs.WordNet
+namespace WordNetSharp
 {
     /// <summary>
     /// Represents a WordNet synset
@@ -16,6 +14,7 @@ namespace LAIR.ResourceAPIs.WordNet
     public class SynSet
     {
         #region static members
+
         /// <summary>
         /// Checks whether two synsets are equal
         /// </summary>
@@ -45,6 +44,7 @@ namespace LAIR.ResourceAPIs.WordNet
         {
             return !(synset1 == synset2);
         }
+
         #endregion
 
         private WordNetEngine.POS _pos;
@@ -145,6 +145,7 @@ namespace LAIR.ResourceAPIs.WordNet
         }
 
         #region construction
+
         /// <summary>
         /// Constructor. Creates the shell of a SynSet without any actual information. To gain access to SynSet words, gloss, 
         /// and related SynSets, call SynSet.Instantiate.
@@ -384,6 +385,7 @@ namespace LAIR.ResourceAPIs.WordNet
 
             return relatedPOS;
         }
+
         #endregion
 
         /// <summary>

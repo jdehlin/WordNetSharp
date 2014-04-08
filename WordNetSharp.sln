@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordNet", "WordNet\WordNet.csproj", "{F4C6C48C-90EF-445D-B8F8-AD9B6767D9A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordNetSharp", "WordNetSharp\WordNetSharp.csproj", "{F4C6C48C-90EF-445D-B8F8-AD9B6767D9A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{4CE87CD7-26B9-46AD-B192-C53096B7427D}"
 EndProject
